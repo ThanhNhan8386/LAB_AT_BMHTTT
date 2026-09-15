@@ -3,8 +3,8 @@
 ## 1. Thông tin sinh viên
 
 - Họ và tên: Lại Thành Nhân
-- Mã số sinh viên: [Điền MSSV]
-- Môn học: An toàn Hệ thống thông tin
+- Mã số sinh viên: 1150080151
+- Môn học: AT_BTHTTT
 - Tên bài Lab: Bắt gói tin Telnet - SSH bằng Wireshark
 
 ---
