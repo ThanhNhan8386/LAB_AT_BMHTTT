@@ -1,1 +1,41 @@
+# LAB 3 – THIẾT LẬP MÔ HÌNH TƯỜNG LỬA pfSense
 
+## Thông tin sinh viên
+- Họ và tên: Thành Nhân
+- MSSV: 1150080151
+- Lớp: 11DH_CNPM2
+
+## Tên bài Lab
+Thiết lập mô hình tường lửa pfSense.
+
+## Nội dung đã thực hiện
+- Tạo máy ảo pfSense trên VMware Workstation.
+- Cấu hình 3 card mạng WAN, LAN và DMZ.
+- Cài đặt pfSense CE.
+- Cấu hình LAN của pfSense với địa chỉ `10.0.0.1/8`.
+- Cài đặt Windows Server 2022.
+- Cấu hình Windows Server với địa chỉ `10.0.0.2/8`.
+- Cài đặt Active Directory Domain Services.
+- Promote Windows Server thành Domain Controller và tạo domain `vietnam.local`.
+- Cấu hình DNS Forwarder `8.8.8.8`.
+- Truy cập giao diện quản trị WebGUI của pfSense.
+- Cấu hình DMZ với địa chỉ `172.16.0.1/16`.
+- Kiểm tra Outbound NAT.
+- Tạo và kiểm tra firewall rule cho mạng LAN.
+- Kiểm tra kết nối Internet, DNS và HTTPS từ Domain Controller.
+
+## Kết quả thực hiện
+- pfSense hoạt động bình thường với các interface WAN, LAN và DMZ.
+- Windows Server kết nối được Internet thông qua pfSense.
+- Domain Controller và DNS hoạt động bình thường.
+- DNS phân giải được tên miền Internet.
+- Các firewall rule được cấu hình và kiểm thử thành công.
+
+## Lưu ý
+- pfSense LAN: `10.0.0.1/8`.
+- Domain Controller: `10.0.0.2/8`.
+- DMZ: `172.16.0.1/16`.
+- Domain: `vietnam.local`.
+- DNS Forwarder: `8.8.8.8`.
+- Khi thay đổi firewall rule cần Apply Changes và Reset States trước khi kiểm thử lại.
+- Các ảnh minh chứng trong báo cáo được chụp trực tiếp từ quá trình thực hành.
